@@ -1,0 +1,30 @@
+/* 
+Custom CSS for...
+'Modern Business' HTML Theme by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0. 
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+*/
+
+body {
+  padding-top: 0px; /* remove fixed top nav */
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+  font-family: 'GillSans', 'HeleveticaNeue', 'Helvetica', sans-serif;
+}
+
+.banner {
+  color: white;
+  width: 100%;
+  height: 20%;
+  background-position: center;
+  background-size: cover;
+}
+
+.portfolio-panel {
+  width: 300px;
+  height: 192px;
+  padding: 10px;
+}
+

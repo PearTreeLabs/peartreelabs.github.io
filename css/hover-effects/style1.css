@@ -52,6 +52,13 @@
    -o-transform: scale(1.1,1.1);
    -ms-transform: scale(1.1,1.1);
    transform: scale(1.1,1.1);
+
+   /* iOS 7 style blur */
+   -webkit-filter: blur(2px);
+   -moz-filter: blur(2px);
+   -o-filter: blur(2px);
+   -ms-filter: blur(2px);
+   filter: blur(2px);
 }
 .view-first a.info {
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
